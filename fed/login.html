@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+
+    <title>Login || Sosh me</title>
+</head>
+
+<body>
+    <form>
+        <label for="user_name">Username</label>
+        <input type="text" id="user_name" placeholder="Username" onchange="handleInput(event)">
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password" onchange="handleInput(event)">
+        <br>
+
+        <button id="loginBtn" onclick="login(event)">Login</button>
+    </form>
+
+    <p>If you do not have an account,<a href="register.html">register here</p></a>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
